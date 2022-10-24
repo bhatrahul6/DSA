@@ -19,13 +19,13 @@ int getpivot(int arr[], int n){
        mid = s+ (e-s)/2;
     }
     return s;
-
+    
 }
 int main(){
 
-int arr[5]={1, 3, 8, 10, 17};
+int arr[4]={ 5 ,0,6};
 
-cout<< "The pivot element is "<< getpivot(arr, 5)<< endl;
+cout<< "The pivot element is "<< getpivot(arr, 4)<< endl;
 
 
 

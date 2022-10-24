@@ -34,7 +34,7 @@ int binarySearch(vector<int>& arr, int s, int e, int key) {
             return mid;
         }
 
-        //go to right wala part
+        // right wala part
         if(key > arr[mid]) {
             start = mid + 1;
         }
